@@ -1,0 +1,93 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+/* About Section */
+#about {
+    background: #e2e2e2;
+}
+
+/* Projects Section */
+#projects .project-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Resume Section */
+#resume {
+    text-align: center;
+}
+
+/* Contact Section */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact form input, 
+#contact form textarea {
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#contact form button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
